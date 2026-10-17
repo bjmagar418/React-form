@@ -9,7 +9,8 @@ function App() {
     setName(event.target.value);
   }
   function handleClick (){
-   setHeading(name)
+   setHeading(name);
+   event.preventDefault();
   }
   return (
     // <form >
