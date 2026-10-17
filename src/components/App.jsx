@@ -12,13 +12,22 @@ function App() {
    setHeading(name)
   }
   return (
-    <form>
+    // <form >
+
+    
+    // <div className="container">
+    //   <h1>Hello {heading}</h1>
+    //   <input onChange={handleChange} value={name} type="text" placeholder="What's your name?" />
+    //   <button type='submit' onClick={handleClick}>Submit</button>
+    // </div>
+    // </form>
+     <form onSubmit={handleClick} >
 
     
     <div className="container">
       <h1>Hello {heading}</h1>
       <input onChange={handleChange} value={name} type="text" placeholder="What's your name?" />
-      <button type='submit' onClick={handleClick}>Submit</button>
+      <button type='submit' >Submit</button>
     </div>
     </form>
   );
